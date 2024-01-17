@@ -10,7 +10,7 @@ import AskQ from "./pages/askQ/AskQ";
 import { createContext, useEffect, useState } from "react";
 import axios from "axios";
 import Comment from "./components/comment/Comment";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://evangadi-forum-yhyk.onrender.com/";
 export const AuthContext = createContext();
 function App() {
   const [user, setUser] = useState({});
